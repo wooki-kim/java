@@ -14,7 +14,6 @@ class User {
 		return this.name;
 	}
 	
-	
 	int getScore(int i){
 		return this.score[i];
 	}
@@ -49,7 +48,6 @@ class Build{
 		} 
 	}
 	
-	
 	float getAverage(int sum){
 		return sum/3f;
 	}
@@ -74,8 +72,7 @@ class Build{
 			}else{
 				System.out.printf("%.0f	", sum[i]);
 			}
-		}
-		
+		}	
 	}
 	
 	void getResult(){
